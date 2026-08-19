@@ -1,4 +1,4 @@
-# HR Assistant — Email Flow
+# Builder Guide — Email Flow
 
 Assembly instructions.
 
