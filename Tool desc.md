@@ -1,0 +1,3 @@
+# Tool desc  
+  
+Searches active job descriptions for titles matching the user's input. Handles abbreviations (e.g. "Anlyst" = Analyst), misspellings, partial titles, and job levels written as Roman numerals or digits (II = 2). Input: the job title text exactly as the user typed it. Returns up to 5 ranked candidates as a JSON array with id, title, jobCode, and score (0-100, higher = better match). Use this tool every time a user wants to view, update, or ask about any job description or position — always call it before identifying which job the user means. Do not pre-correct or expand the user's input before passing it.  
